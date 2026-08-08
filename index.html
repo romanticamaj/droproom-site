@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Droproom — Support</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "SF Pro Text", "PingFang TC", sans-serif;
+         background: linear-gradient(180deg, #3a434e, #161a20) fixed; color: #e8edf2;
+         min-height: 100vh; line-height: 1.65; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+  .mark { display: flex; align-items: center; gap: 14px; margin-bottom: 40px; }
+  .mark svg { flex: none; }
+  .mark b { font-size: 22px; letter-spacing: .3px; }
+  h1 { font-size: 32px; margin: 0 0 10px; }
+  h2 { font-size: 19px; margin: 36px 0 10px; color: #e8edf2; }
+  p, li { color: #b9c2cf; font-size: 16px; }
+  .zh { color: #939aa6; font-size: 15px; margin-top: 4px; }
+  a { color: #84ada6; text-decoration: none; border-bottom: 1px solid #84ada644; }
+  a:hover { border-bottom-color: #84ada6; }
+  .card { background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.08);
+          border-radius: 16px; padding: 22px 24px; margin: 14px 0; }
+  ul { padding-left: 20px; } li { margin: 6px 0; }
+  footer { margin-top: 56px; font-size: 13px; color: #737a85; }
+  footer a { color: #939aa6; }
+</style>
+</head>
+<body><div class="wrap">
+  <div class="mark">
+    <svg width="44" height="44" viewBox="0 0 480 480" aria-hidden="true">
+      <rect width="480" height="480" rx="107" fill="#14181f"/>
+      <g fill="none" stroke="#e8edf2" stroke-width="0">
+        <rect x="148" y="95" width="46" height="83" rx="10" fill="#e8edf2"/>
+        <rect x="148" y="302" width="46" height="83" rx="10" fill="#e8edf2"/>
+        <rect x="148" y="95" width="126" height="46" rx="10" fill="#e8edf2"/>
+        <rect x="148" y="339" width="126" height="46" rx="10" fill="#e8edf2"/>
+      </g>
+      <path d="M273 118 A 122 122 0 0 1 273 362" fill="none" stroke="#e8edf2" stroke-width="46"/>
+      <circle cx="202" cy="240" r="30" fill="#84ada6"/>
+      <path d="M247 208 A 55 55 0 0 1 247 272" fill="none" stroke="#84ada6" stroke-width="20" stroke-linecap="round"/>
+      <path d="M283 186 A 96 96 0 0 1 283 294" fill="none" stroke="#84ada6" stroke-width="18" stroke-linecap="round" opacity=".8"/>
+    </svg>
+    <b>Droproom</b>
+  </div>
+
+  <h1>Support</h1>
+  <p>Droproom turns your phone into a temporary local file share. People nearby join from a
+     browser — no app, no account — and files move directly between devices, never through a
+     cloud.</p>
+  <p class="zh">Droproom 把你的手機變成一個臨時的區域網路檔案分享。身邊的人用瀏覽器加入——
+     不用裝 App、不用帳號——檔案直接在裝置之間傳送，不經雲端。</p>
+
+  <h2>Quick answers · 常見問題</h2>
+  <div class="card">
+    <ul>
+      <li><b>Nobody can join?</b> Everyone must be on the same Wi-Fi, and that network must
+          allow devices to talk to each other. Public, hotel, school, and office networks often
+          block this (client isolation). The most reliable fallback is a personal hotspot.
+          <div class="zh">沒人連得上？所有人要在同一個 Wi-Fi，且該網路要允許裝置互連。公共／飯店／學校／公司網路常會封鎖（client isolation）。最可靠的替代方案是開個人熱點。</div></li>
+      <li><b>From a computer:</b> type the address shown under the QR code into the browser's
+          address bar, then tap "Let in" on the phone when asked.
+          <div class="zh">電腦端：把 QR code 下方的位址輸入瀏覽器網址列，然後在手機上按「讓他進來」。</div></li>
+      <li><b>Sharing stops in the background:</b> iOS pauses network listeners when an app
+          leaves the foreground. Keep Droproom open while people transfer; it resumes
+          automatically when you come back.
+          <div class="zh">切到背景會暫停：iOS 會暫停背景 App 的網路監聽。傳輸期間請讓 Droproom 保持開啟；回到 App 會自動恢復。</div></li>
+      <li><b>Is it encrypted?</b> Transfers stay inside your local network but are not
+          encrypted — share with people you trust.
+          <div class="zh">有加密嗎？傳送只在你的區域網路內，但未加密——請與你信任的人分享。</div></li>
+      <li><b>Free limit:</b> the free tier includes 5 sharing days — a day only counts when a
+          file is actually received, and unused days never expire. A one-time purchase removes
+          the limit.
+          <div class="zh">免費額度：5 個分享日——只有實際收到檔案的那天才計入，沒用完的天數不會過期。一次性購買即可解除限制。</div></li>
+    </ul>
+  </div>
+
+  <h2>Contact · 聯絡</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:romanticamaj@gmail.com">romanticamaj@gmail.com</a></p>
+    <p class="zh">問題回報與建議都歡迎來信。</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy · 隱私權政策</a> · © 2026 Droproom
+  </footer>
+</div></body></html>
